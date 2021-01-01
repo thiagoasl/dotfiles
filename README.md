@@ -35,3 +35,34 @@ In addition:
 # Using 'd' substituting 'git'
 d config status.showUntrackedFiles no
 ```
+
+
+## Bash
+
+- 1. `.bash_profile`
+- 2. `.bashrc`
+- 3. `.bash_aliases`
+
+### .bash_profile
+
+Loaded once, after user log in.
+
+- Import `.bashrc`.
+
+### .bashrc
+
+Loaded each new bash session (terminal).
+
+- If not running interactively, don't do anything.
+- Input console format.
+- Use Vi mode (bind -P).
+- Allows to change directory by typing the name.
+- Infinite history.
+- Import `.bash_aliases`.
+
+### .bash_aliases
+
+- git for dotfiles as 'd'.
+- System utilities.
+- Internet download.
+- Super user.
