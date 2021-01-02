@@ -42,10 +42,6 @@ d config status.showUntrackedFiles no
 
 ## Bash
 
-- 1. `.bash_profile`
-- 2. `.bashrc`
-- 3. `.bash_aliases`
-
 ### .bash_profile
 
 Loaded once, after user log in.
