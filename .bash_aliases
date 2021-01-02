@@ -2,7 +2,7 @@
 # ~/.bash_aliases
 #
 
-# Git for Dotfiles
+# git for dotfiles as 'd'
 
 alias d="/usr/bin/git --git-dir=$HOME/.git/ --work-tree=$HOME"
 
@@ -12,7 +12,6 @@ alias m="mkdir -pv"
 alias la="ls -alhN --color=auto --group-directories-first"
 alias ls="ls -lhN --color=auto --group-directories-first"
 alias v="nvim"
-
 
 # Internet Download
 
