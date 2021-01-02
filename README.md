@@ -4,6 +4,9 @@
 
 ```sh
 .
+├── .config
+│   └── tmux
+│       └── tmux.conf
 ├── .bash_aliases
 ├── .bash_profile
 ├── .bashrc
@@ -66,3 +69,29 @@ Loaded each new bash session (terminal).
 - System utilities.
 - Internet download.
 - Super user.
+
+## Tmux
+
+Acessed entering `tmux`.
+
+Commands are processed after pressing `Ctrl` + `b`.
+
+- `d`: detach. To back in `tmux attach`.
+- `%`: split vertically.
+- `"`: split horizontally.
+- `c`: create new tab.
+- `r`: reload settings.
+- Arrow keys navigate between windows.
+
+### tmux.conf
+
+- Allow opening multiple terminals to view the same session at different sizes.
+- Remove delay when switching between Vim modes.
+- Enable color support inside of tmux.
+- Ensure window titles get renamed automatically.
+- Ensure window index numbers get reordered on delete.
+- Start windows and panes index at 1, not 0.
+- Enable full mouse support.
+- Colors optimized for One Dark. If you prefer One Light try changing both pane border colors from 240 / 243 to 250 / 253 and reload with `r`.
+- Display a clock on the bottom right of the status bar.
+- Reload the tmux config.
